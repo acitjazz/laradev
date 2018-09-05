@@ -17610,7 +17610,7 @@ h5,
 h6,
 strong,
 b {
-  font-family: "Spectral", sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
   font-size: 100%;
   line-height: 1.4;
@@ -17911,7 +17911,7 @@ acronym {
 }
 
 #popup-nav-mobile li a {
-  font-family: "Spectral", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .mfp-title h3 {
@@ -17970,6 +17970,53 @@ img.mfp-img {
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
   right: 0;
+}
+
+/* ================= SOCMED  ==================== */
+
+.socmed {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.socmed ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.socmed ul li {
+  display: inline-block;
+}
+
+.socmed a img {
+  width: 60px;
+}
+
+.socmed a {
+  display: inline-block;
+  line-height: 32px;
+  background: none;
+  font-size: 18px;
+  color: #ef3037;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.socmed a i:before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ef3037;
+}
+
+.socmed a:hover,
+.socmed a:hover i:before {
+  color: #ef3037;
 }
 
 /* ================= BUTTON  ==================== */
@@ -18064,11 +18111,6 @@ img.mfp-img {
 
 /* ================= HEADER  ==================== */
 
-#top {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
 .sticky-wrapper {
   width: 100%;
   left: 0;
@@ -18076,112 +18118,33 @@ img.mfp-img {
   z-index: 900 !important;
 }
 
-.relative-header .sticky-wrapper,
-.is-sticky {
-  position: relative;
-}
-
-.home-page .headerBox {
-  padding: 20px 0;
-}
-
-.relative-header .headerBox {
-  padding: 20px 0;
-  background-color: #015bb3;
-}
-
-.is-sticky .headerBox {
-  background-color: #015bb3;
-  padding: 20px 0;
-}
-
-.navigation ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.navigation ul ul {
-  margin-top: 33px;
-}
-
-.navigation ul ul li a {
-  display: block;
-  font-size: 18px;
-  line-height: 39px;
-  height: 35px;
-  border-bottom: solid 1px #333;
-}
-
-.navigation ul ul li a:hover {
-  color: #333;
-}
-
-.navigation a {
-  font-family: "Spectral", sans-serif;
-  color: #fff;
-  font-size: 24px;
-  letter-spacing: 1px;
-  padding: 0 20px;
-  display: inline-block;
-  line-height: 37px;
-  height: 30px;
-}
-
-.navigation a:hover {
-  color: #ef3037;
-}
-
-.slicknav_nav a:hover,
-.slicknav_nav .slicknav_row:hover {
-  background: none;
-  color: #fff;
-  border-radius: 0;
-  margin: 0;
-}
-
-.slicknav_nav .slicknav_row {
-  padding: 0 20px;
-  margin: 0;
-}
-
-.slicknav_nav ul {
-  margin: 0;
+header {
+  background: #e6e7e8;
+  z-index: 900 !important;
 }
 
 .logo {
-  margin-right: auto;
+  width: 80px;
+  padding: 10px;
 }
 
 .logo img {
-  width: 60px;
+  width: 100%;
 }
 
-.searchbox {
-  margin-left: auto;
-}
-
-.searchbox a {
-  font-size: 24px;
-  color: #fff;
-}
-
-.bannerContent {
-  color: #fff;
-  text-align: left;
-  position: relative;
-  z-index: 999;
-  cursor: pointer;
-}
-
-.bannerContent h3 {
-  font-size: 16px;
+.top-navigation ul {
   margin: 0;
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.bannerContent h2 {
-  margin: 0;
-  font-size: 50px;
+.top-navigation a {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 10px;
 }
 
 /* ================= WIDGET  ==================== */
@@ -18210,7 +18173,7 @@ img.mfp-img {
 }
 
 .sharebox span {
-  font-family: "Spectral", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-right: 20px;
   font-size: 18px;
   height: 40px;
@@ -18304,7 +18267,7 @@ img.mfp-img {
 }
 
 .socialLogin .button {
-  font-family: "Spectral", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: block;
   height: 45px;
   line-height: 45px;
@@ -18348,7 +18311,7 @@ img.mfp-img {
 .alert {
   background: #fff0c9;
   text-align: center;
-  font-family: "Spectral", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #333;
   letter-spacing: 3px;
@@ -18465,10 +18428,50 @@ img.mfp-img {
   margin: 0 auto;
 }
 
+/* ================= FOOTER  ==================== */
+
+.foo-menu a {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.copyright {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #999;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0 0;
   color: #000;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.go-left {
+  margin-right: auto;
+}
+
+.go-right {
+  margin-left: auto;
+}
+
+.section {
+  padding: 40px 0;
 }
 
 /* ================= RESPONSIVE  ==================== */
@@ -18865,7 +18868,7 @@ body {
 
   #headbottom .slicknav_nav li a {
     color: #000;
-    font-family: "Spectral", sans-serif;
+    font-family: "Poppins", sans-serif;
     padding: 0 20px;
     margin: 0;
     font-size: 16px;

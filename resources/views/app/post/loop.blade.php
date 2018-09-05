@@ -1,3 +1,4 @@
+@foreach ($posts->chunk(3) as $posts)
 <div class="list-box row">
   @foreach ($posts as $post)
       <div class="col-md-4">
@@ -18,6 +19,4 @@
       </div>{{-- .flex-box --}}
   @endforeach
 </div>{{-- .list-box --}}
-<div class="flex-center">
-  {{ $posts -> links()}}
-</div>
+@endforeach

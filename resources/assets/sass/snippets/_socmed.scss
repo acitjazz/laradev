@@ -5,6 +5,13 @@
     padding: 10px 0;
     text-align:center;
 }
+.socmed ul{
+  list-style:none;
+  margin:0; padding:0;
+}
+.socmed ul li{
+  display:inline-block;
+}
 .socmed a img{
   width:60px;
 }
@@ -13,7 +20,7 @@
   line-height:32px;
   background:none;
   font-size:18px;
-  color:$light-color;
+  color:$primary-color;
   display:inline-block;
   vertical-align: top;
   text-align:center;
@@ -24,7 +31,7 @@
   width:30px; height:30px;
   line-height:30px;
   text-align:center;
-  color:$light-color;
+  color:$primary-color;
 }
 .socmed a:hover,.socmed a:hover i:before{
   color:$primary-color;

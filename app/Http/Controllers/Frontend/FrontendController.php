@@ -17,7 +17,7 @@ class FrontendController extends Controller {
 	public function home($locale) {
 			$page = 'WELCOME';
 			$page = Post::where('type','page')->where('template','home')->first();
-			$posts = Post::latest('created_at')->simplePaginate(10);
+			$posts = Post::latest('created_at')->limit(9)->get();
 		 	return view('app.page.home',compact('page','posts'));
           //return \Response::view('custom.404', array(), 500);
 	}

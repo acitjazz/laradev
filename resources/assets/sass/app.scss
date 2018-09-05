@@ -22,22 +22,40 @@ body,html{
 @import "../js/components/superfish/css/superfish";
 @import "../fonts/Poppins/stylesheet";
 @import "../fonts/Spectral/stylesheet";
-@import "vendor/ionicons/scss/ionicons";
-@import "vendor/brand/style";
-@import "vendor/animate";
-@import "snippets/reset";
-@import "snippets/typography";
-@import "snippets/loader";
-@import "snippets/popup";
-@import "snippets/button";
-@import "snippets/header";
-@import "snippets/widget";
-@import "snippets/share";
-@import "snippets/login";
-@import "snippets/thumb";
+@import "./vendor/ionicons/scss/ionicons";
+@import "./vendor/brand/style";
+@import "./vendor/animate";
+@import "./snippets/reset";
+@import "./snippets/typography";
+@import "./snippets/loader";
+@import "./snippets/popup";
+@import "./snippets/socmed";
+@import "./snippets/button";
+@import "./snippets/header";
+@import "./snippets/widget";
+@import "./snippets/share";
+@import "./snippets/login";
+@import "./snippets/thumb";
+@import "./snippets/footer";
 body{
   font-family: $primary-font;
   margin: 0 0;
   color:#000;
 }
-@import "snippets/responsive";
+.flex{
+  display:flex;
+}
+.flex-center{
+  justify-content:center;
+  align-items:center;
+}
+.go-left{
+  margin-right: auto;
+}
+.go-right{
+  margin-left: auto;
+}
+.section{
+  padding: 40px 0;
+}
+@import "./snippets/responsive";
