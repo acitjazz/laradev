@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'DIN';
+    src: url('DIN-Light.eot');
+    src: url('DIN-Light.eot?#iefix') format('embedded-opentype'),
+        url('DIN-Light.woff2') format('woff2'),
+        url('DIN-Light.woff') format('woff'),
+        url('DIN-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('DIN-Bold.eot');
+    src: url('DIN-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DIN-Bold.woff2') format('woff2'),
+        url('DIN-Bold.woff') format('woff'),
+        url('DIN-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('DIN-Regular.eot');
+    src: url('DIN-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DIN-Regular.woff2') format('woff2'),
+        url('DIN-Regular.woff') format('woff'),
+        url('DIN-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('DIN-RegularAlternate.eot');
+    src: url('DIN-RegularAlternate.eot?#iefix') format('embedded-opentype'),
+        url('DIN-RegularAlternate.woff2') format('woff2'),
+        url('DIN-RegularAlternate.woff') format('woff'),
+        url('DIN-RegularAlternate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('DIN-Medium.eot');
+    src: url('DIN-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DIN-Medium.woff2') format('woff2'),
+        url('DIN-Medium.woff') format('woff'),
+        url('DIN-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('DIN-BlackAlternate.eot');
+    src: url('DIN-BlackAlternate.eot?#iefix') format('embedded-opentype'),
+        url('DIN-BlackAlternate.woff2') format('woff2'),
+        url('DIN-BlackAlternate.woff') format('woff'),
+        url('DIN-BlackAlternate.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('DIN-Bold_1.eot');
+    src: url('DIN-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('DIN-Bold_1.woff2') format('woff2'),
+        url('DIN-Bold_1.woff') format('woff'),
+        url('DIN-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -1,0 +1,172 @@
+/* ================= POPUP  ==================== */
+.mfp-bg{
+  opacity:0.95;
+}
+.popup{
+  display: none;
+}
+.popup-container{
+  background:rgba(255,255,255,0.25);
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius:10px;
+}
+#popup-register{
+  max-width:400px;
+}
+.popup-body{
+  padding:40px 20px;
+  color:#fff;
+}
+.popup-body h2{
+  margin:0;
+}
+.popup-footer{
+  padding:20px;
+}
+#popup-message{
+  text-align: center;
+}
+#popup-message h2{
+  font-size:20px;
+}
+#popup-message p{
+  margin:0;
+}
+#popup-content{
+  text-align:center;
+  padding:0 0 30px 0;
+}
+#popup-content .button{
+  min-width: 120px;
+}
+.popup-body h3{
+  margin:0 0 0 0;
+  font-size: 20px;
+}
+.popup-entry-meta{
+  text-align:center;
+  font-size:14px;
+  padding:20px;
+}
+.popup-entry-title{
+  margin: 0 0 10px 0;
+}
+.popup-entry-meta span{
+  display:block;
+}
+.popup-entry{
+  padding:0 20px 30px 20px;
+}
+.popup-entry p{
+  font-size:14px;
+}
+.popup-date{
+  color:#999;
+}
+.counterVote{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+.icon-countVote{
+  font-size: 16px;
+  margin: 0 5px;
+}
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+    top: 12px;
+    font-size: 30px;
+}
+.popupShare.sharebox{
+  float: none;
+  padding:20px 0 0 0;
+}
+#popup-nav-mobile{
+  background: #f2f2f2;
+  position: fixed;
+  overflow: hidden;
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align:center;
+  max-width:none;
+}
+#popup-nav-mobile ul{
+  display:block;
+  margin:30px 0;
+}
+.logo-box img{
+  max-width:80px;
+}
+#menu-popup{
+  margin:40px 0 0 0;
+}
+#menu-popup li{
+  display:block;
+  text-align:center;
+}
+#menu-popup li a{
+  display:block;
+  line-height: 35px;
+  height:35px;
+  font-size:18px;
+}
+#popup-nav-mobile .mfp-close{
+  color:#000;
+}
+#popup-nav-mobile li a{
+  font-family: $title-font;
+}
+.mfp-title h3{
+  margin:0;
+  font-size:20px;
+}
+.mfp-bottom-bar{
+  margin:10px 0 0;
+  opacity:0.6;
+}
+.mfp-title{
+  padding:0 0;
+  color:#fff;
+}
+#popup-profile{
+  max-width:350px;
+}
+#popup-profile h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+#popup-profile .login-box .btn{
+  width:100px;
+}
+.form-info{
+  font-size: 12px;
+  margin:0;
+}
+img.mfp-img{
+  width: 100%;
+  padding:0;
+  max-height:none !important;
+  max-width:800px;
+}
+.mfp-figure figure{
+  max-width: 1200px;
+  background: #000;
+  margin: 0 auto;
+  padding: 30px;
+}
+.mfp-bottom-bar{
+  margin:0;
+  position:relative;
+}
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close{
+  right:0;
+}

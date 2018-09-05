@@ -1,0 +1,45 @@
+
+/* ================= TYPOGRAPHY  ==================== */
+a{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration:none;
+  color:$primary-color;
+}
+a:hover, a:focus{
+  text-decoration:none;
+  outline: none;
+}
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-family:$title-font;
+  letter-spacing:1px;
+  font-size:100%;
+  line-height: 1.4;
+  font-weight: 700;
+}
+h1{ font-size:40px; }
+h2{ font-size:30px; }
+h3{ font-size:24px; }
+h4{ font-size:20px; }
+h5{ font-size:18px; }
+h1 a,h2 a,h3 a,h4 a,h5 a{
+  color:$dark-color;
+}
+p{ 
+  margin: 0 0 20px 0;
+  font-size:14px;
+  font-weight:300;
+  opacity: 0.6;
+}
+q:before, q:after {
+  content:'';
+}
+abbr, acronym {
+  border:0;
+}
+.title{
+  margin:0;
+}

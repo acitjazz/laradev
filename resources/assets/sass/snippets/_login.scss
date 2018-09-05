@@ -1,0 +1,97 @@
+/* ================= LOGIN  ==================== */
+.loginForm{
+  max-width: 400px;
+  margin:0 auto;
+  text-align: center;
+}
+.or{
+  position: relative;
+  margin:20px 0;
+}
+.or:before{
+  content:'';
+  position:absolute;
+  width: 100%;
+  height:1px;
+  left:0;
+  background: $dark-color;
+  top:50%;
+}
+.or h5{
+  background:$light-color;
+  padding: 10px;
+  position:relative;
+  margin:0;
+  display:inline-block;
+}
+.loginForm .btn{
+  width: 100%;
+  border: none;
+  letter-spacing: 5px;
+  display: block;
+  line-height: 45px;
+}
+.socialLogin{
+}
+.haspad{
+  padding:30px 30px 0 30px;
+}
+.socialLogin .button{
+  font-family: $title-font;
+  display:block;
+  height:45px;
+  line-height:45px;
+  background:#333;
+  color: #fff;
+  padding: 0 10px;
+  margin: 0 auto;
+  border-radius:7px;
+}
+.socialLogin .button i:before{
+  color:#fff;
+  margin-right: 10px;
+}
+.socialLogin .button.loginGoogle{
+  background:#dc3f29;
+}
+.socialLogin .button.loginFacebook{
+  background:#395998;
+}
+.socialLogin .button.loginTwitter{
+  background:#55acef;
+}
+.socialLogin .button.loginFacebook:hover{
+  background:#000;
+}
+.btn-line{
+  color:#fff;
+}
+.btn-line a{
+  color:#fff;
+  font-size: 12px;
+}
+.alert{
+  background: #fff0c9;
+  text-align: center;
+  font-family: $title-font;
+  font-size: 20px;
+  color: #333;
+  letter-spacing: 3px;
+  border: solid 1px #ffaf66;
+  line-height: 24px;
+}
+.login-box{
+  padding:30px 0;
+  color:#fff;
+}
+.login-box a{
+  color:#fff;
+}
+.login-box .btn{
+  display:block;
+  width:100%;
+}
+.login-box span{
+  font-size:12px;
+  opacity: 0.8;
+}

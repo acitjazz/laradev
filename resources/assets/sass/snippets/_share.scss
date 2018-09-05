@@ -1,0 +1,53 @@
+/* ================= SHARE ==================== */
+.sharebox{
+  padding: 20px 0;
+  max-width: 230px;
+  margin: 0 auto;
+}
+.sharebox ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+.sharebox span{
+  font-family: $title-font;
+  margin-right: 20px;
+  font-size:18px; height:40px;
+  line-height: 43px;
+  display:block;
+  letter-spacing:2px;
+}
+.sharebox a{
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+  padding: 0 20px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+.sharebox a:hover{
+  background-color:#333;
+}
+.sharebox a i:before{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+.shareFacebook{
+  background-color:#537abb;
+}
+.shareTwitter{
+  background-color:#79cdf1;
+}
+.shareEmail{
+  background-color:#f12f3a;
+}
+.shareLink{
+  background-color:#e49b2a;
+}

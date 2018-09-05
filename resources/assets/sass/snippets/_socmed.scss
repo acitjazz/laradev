@@ -1,0 +1,31 @@
+
+/* ================= SOCMED  ==================== */
+
+.socmed{
+    padding: 10px 0;
+    text-align:center;
+}
+.socmed a img{
+  width:60px;
+}
+.socmed a{
+  display:inline-block;
+  line-height:32px;
+  background:none;
+  font-size:18px;
+  color:$light-color;
+  display:inline-block;
+  vertical-align: top;
+  text-align:center;
+  margin:0 10px;
+}
+.socmed a i:before{
+  display:inline-block;
+  width:30px; height:30px;
+  line-height:30px;
+  text-align:center;
+  color:$light-color;
+}
+.socmed a:hover,.socmed a:hover i:before{
+  color:$primary-color;
+}

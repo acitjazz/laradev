@@ -1,0 +1,55 @@
+/* ================= TAB  ==================== */
+.nav-tabs{
+  border:none;
+  padding: 20px 0;
+}
+.nav-tabs > li{
+  float: none;
+}
+.nav-tabs > li > a{
+  font-family: $title-font;
+  font-size:20px;
+  color:$dark-color;
+  border:none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+.nav > li > a:hover, .nav > li > a:focus{
+  border:none;
+  background: none;
+  color:$primary-color;
+}
+#tab-large{
+  padding:40px 0;
+}
+#tab-large .nav-tabs{
+  display:flex;
+  justify-content:space-between;
+  border-right:solid 1px #b2b2b2;
+  margin:0; padding:0;
+}
+#tab-large .nav-tabs > li{
+  width: 33.33%;
+  border-radius:0;
+  border: solid 1px #b2b2b2;
+  border-right: 0;
+}
+#tab-large .nav-tabs > li > a{
+  font-weight: 700;
+  font-size:30px;
+  border-radius: 0;
+  display:block;
+  text-align: center;
+  color:#b2b2b2;
+}
+#tab-large .nav-tabs > li.active > a,#tab-large .nav-tabs > li.active > a:hover,#tab-large .nav-tabs > li.active > a:focus,
+#tab-large .nav > li > a:hover,#tab-large .nav > li > a:focus{
+  border:none;
+  background:$primary-color;
+  color:$light-color;
+}
+#tab-large .tab-content > .tab-pane{
+  padding:30px;
+  border: solid 1px #b2b2b2;
+  border-top: none;
+  background:$light-color;
+}

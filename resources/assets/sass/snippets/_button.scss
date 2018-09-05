@@ -1,0 +1,72 @@
+
+/* ================= BUTTON  ==================== */
+.btn{
+	background:none;
+	color:#000;
+	font-family: $primary-font;
+	font-size:14px;
+	padding:0 20px;
+	border-radius:5px;
+	border:solid 1px #000;
+	line-height: 40px;
+	height: 40px;
+}
+.btn:hover,.btn-primary:focus, .btn-primary.focus{
+  background-color:#000;
+  color:#fff;
+}
+.btn-large{
+	line-height:55px; height:50px;
+	padding:0 30px;
+	font-size:30px;
+	letter-spacing:3px;
+	border:none;
+}
+.btn-box{
+	border:solid 2px $dark-color;
+	background: $light-color;
+	color:$dark-color;
+}
+.btn-border{
+	background:$light-color;
+	border:solid 2px #999;
+	color:#999;
+}
+.btn-outline{
+	background:none;
+	border:solid 2px $light-color;
+	color:$light-color;
+}
+.btn-outline:hover{
+	border:solid 2px $primary-color;
+	color:$primary-color;
+}
+.btn-play{
+	background:#FB2626;
+	color:#fff;
+	width: 70px; height:70px;
+	border-radius:100px;
+	display:block;
+	position:absolute;
+	left:50%; top:50%;
+	margin:-35px 0 0 -35px;
+	z-index: 55;
+}
+.btn-play i:before{
+	display:block;
+	width: 70px; height:70px;
+	line-height:70px;
+	text-align:center;
+}
+.btn-play:hover{
+	background:#000;
+}
+.btn-red{
+	background:#ED1A3B;
+	border:none;
+	color:#fff;
+}
+.btn-red:hover{
+	border:none;
+	background:#000;
+}

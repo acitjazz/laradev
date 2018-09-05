@@ -1,0 +1,43 @@
+/*!
+ * Theme Name: Laradev
+ * Authors: Acit Jazz 
+ */
+// Variables
+@import "variables";
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+body,html{
+	margin:0; height: 100%;
+  background:#fff;
+} 
+*{
+  outline: none;
+}
+// Components
+@import "../js/components/select2/select2.min";
+@import "../js/components/magnific-popup/magnific-popup";
+@import "../js/components/slicknav/slicknav";
+@import "../js/components/slick/slick-theme";
+@import "../js/components/slick/slick";
+@import "../js/components/superfish/css/superfish";
+@import "../fonts/Poppins/stylesheet";
+@import "../fonts/Spectral/stylesheet";
+@import "vendor/ionicons/scss/ionicons";
+@import "vendor/brand/style";
+@import "vendor/animate";
+@import "snippets/reset";
+@import "snippets/typography";
+@import "snippets/loader";
+@import "snippets/popup";
+@import "snippets/button";
+@import "snippets/header";
+@import "snippets/widget";
+@import "snippets/share";
+@import "snippets/login";
+@import "snippets/thumb";
+body{
+  font-family: $primary-font;
+  margin: 0 0;
+  color:#000;
+}
+@import "snippets/responsive";

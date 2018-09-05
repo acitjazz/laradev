@@ -1,0 +1,41 @@
+/* ================= PAGING  ==================== */
+.paging {
+  text-align:center;
+  overflow:hidden;
+}
+.paging li{
+  display: inline-block;
+}
+.paging a, .paging span,.backbox a{
+  display:inline-block;
+  font-size:18px;
+  color:#333;
+  padding: 0 10px;
+}
+.paging span{
+  display:inline-block;
+  padding: 0;
+}
+.paging a.next{
+}
+.paging a.prev{
+}
+.paging a.current,.paging a:hover {
+}
+.paging-circle{
+	bottom:0;
+	z-index: 200;
+}
+.paging-circle .pagination a,.paging-circle .pagination span{
+    border-radius: 200px !important;
+    margin: 0 4px;
+    padding: 0;
+    width: 20px;
+    display: block;
+    line-height: 18px;
+    border:none;
+    height: 20px;
+    font-size: 10px;
+    background: #fff;
+    color: #333;
+}

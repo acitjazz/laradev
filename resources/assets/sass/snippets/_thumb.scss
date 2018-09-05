@@ -1,0 +1,65 @@
+/* ================= THUMB  ==================== */
+.thumb{
+  position: relative;
+  overflow:hidden;
+}
+.thumb img{
+  width: 100%;
+}
+.thumb-circle{
+  width:150px; height:150px;
+  border-radius: 300px;
+}
+.thumb-avatar{
+  width:120px; height:120px;
+  border-radius: 300px;
+}
+.thumb-user-small{
+  width: 40px; height:40px;
+  border-radius:100px;
+}
+.hasOverlay:before{
+  content:'';
+  background: rgba(0,0,0,0.1);
+  position:absolute;
+  width:100%; height:100%;
+  left: 0; top: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.hasOverlay:hover:before,.hasOverlay.hover:before,.hasOverlay-active:before{
+  background: rgba(0,0,0,0.6);
+}
+.caption{
+  position:absolute;
+  width:100%; height:100%;
+  left: 0; top: 0;
+  display:flex;
+}
+.caption-entry{
+  margin-top: auto;
+  padding:20px;
+}
+.caption-entry.hasBg{
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+.caption-entry h3,.caption-entry h4{
+  margin:0;
+}
+.caption-entry a{
+  color:#fff;
+}
+.h-center{
+  margin:auto;
+}
+.h-center h4{
+  font-size: 24px;
+}
+.imgPreview{
+  max-width:200px;
+  margin:0 auto;
+}

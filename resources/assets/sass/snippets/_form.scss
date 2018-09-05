@@ -1,0 +1,287 @@
+/* ================= FORM  ==================== */
+
+form label {
+    display: block;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+form label.error {
+    color: #c00;
+    padding: 10px 0;
+}
+
+form {
+    margin: 0;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+textarea.form-control {
+    background:$light-color;
+    height: 45px;
+    border: 2px solid $dark-color;
+    color: $dark-color;
+    box-shadow: none;
+    border-radius: 7px;
+    padding:10px;
+    font-size:14px;
+    width: 100%;
+}
+
+input[type=text].error,
+input[type=password].error,
+input[type=email].error,
+input[type=number].error,
+textarea.error {
+    border-color: #c00;
+}
+
+textarea.form-control {
+    padding: 20px;
+    height: 100px;
+    resize: none;
+}
+
+.rows {
+    margin: 0 0 20px 0;
+}
+
+.selectstyle {
+    padding: 0 5px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    border-radius: 40px;
+    height: 50px;
+    line-height: 52px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.selectstyle:after {
+    content: "\ea66";
+    font-family: 'eufont';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+}
+
+.selectstyle select {
+    font-size: 18px;
+    padding: 5px 8px;
+    height: 50px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.selectstyle select:focus {
+    outline: none;
+}
+select{
+    width:100%;
+}
+.select2 {
+    min-width: 280px;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color:#f2f2f2;
+    border: 1px solid #e7e7e7;
+    padding:5px 10px;
+    height:auto;
+    border-radius:0;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top:7px;
+}
+.select2-container--default .select2-selection--multiple,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    background-color:#f2f2f2;
+    border: 1px solid #e7e7e7;
+    height:auto;
+    border-radius:0;
+}
+div.tagsinput span.tag{
+    padding:0 5px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #999;
+    padding: 0;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border: solid 1px #bdbdbd;
+    border-radius: 0;
+    padding: 0 7px;
+    background: none;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color:#fff;
+    border:solid 1px #ccc;
+}
+.ui-datepicker-title select {
+    color: #333;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #999;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #999;
+}
+
+:-ms-input-placeholder {
+    color: #999;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate(300px, 0);
+    -moz-transform: translate(300px, 0);
+    -ms-transform: translate(300px, 0);
+    -o-transform: translate(300px, 0);
+    transform: translate(300px, 0);
+    opacity: 0;
+}
+#popup-login {
+    max-width: 400px;
+}
+
+.login-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.login-form .col-md-6{
+    width: 50%;
+    float:left;
+}
+.boxForm {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+}
+.boxForm span {
+    font-size: 12px;
+}
+
+.login-form input[type=text],
+.login-form input[type=email],
+.login-form input[type=password] {
+    border: solid 1px;
+    border-color: #ccc;
+}
+.form-control:focus{
+    background-color: #fff;
+}
+.login-form .button {
+    min-width: 150px;
+    width: 100%;
+}
+
+.remember-me {
+    overflow: hidden;
+    position: relative;
+}
+
+.remember-me .checkbox {
+    float: left;
+    margin: 0 10px;
+}
+
+.remember-me label {
+    float: left;
+}
+
+#searchbox {
+    vertical-align:top;
+}
+
+#searchbox.active {
+    display: block;
+}
+
+#searchbox input[type=text] {
+  border:none;
+  font-family:$title-font;
+  font-size:30px;
+  letter-spacing:3px;
+  color:$light-color;
+  background:none;
+    padding: 0;
+    line-height: 40px;
+    height: 40px;
+    margin-left:55px;
+}
+#searchbox{
+  background:rgba(9,25,50,0.8);
+  position:fixed;
+  width: 100%; height:100%;
+  left:0; top:0;
+  z-index: 9999;
+}
+.closeSearch{
+  margin-left:auto;
+    color:$light-color;
+    font-size: 20px;
+    line-height: 30px;
+    height: 30px;
+}
+.closeSearch:hover{
+    color:$primary-color;
+}
+.searchform {
+    max-width: inherit;
+    position: relative;
+    margin-top: 10px;
+    border-bottom: solid 1px $light-color;
+    margin-bottom: 40px;
+}
+
+.searchform .btn-search {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    background: none;
+    color:$light-color;
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    height: 30px;
+}
+
+
