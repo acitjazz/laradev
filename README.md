@@ -17,7 +17,7 @@ composer update
 php artisan migrate
 ```
 ```
-php artisan db:seed --class=DbTableSeeder
+php artisan db:seed
 ```
 ```
 npm install
